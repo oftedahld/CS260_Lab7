@@ -17,14 +17,14 @@ def main():
     # Uncomment line to run test
 
     # # Basic Lab Tests
-    testHeap()
-    testPriorityQ()
+    # testHeap()
+    # testPriorityQ()
 
     # # Advanced Lab Tests
     # # These require the implementation of a static class containing the appropriate methods
     # testHeapSort()
     # testMergeSort()
-    # testQuickSort()
+    testQuickSort()
     #
     # # Thinking Problem Test
     # testFindNth()
@@ -121,6 +121,7 @@ def testMergeSort():
 
     # now sort it
     mergeSort(mergeArray, NUM_VALUES)
+    
 
     # show sorted array, should be in ascending order
     print("Now the array should be sorted")
